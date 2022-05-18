@@ -1,0 +1,2 @@
+# R5T.L0021
+System.Reflection.MetadataLoadContext Nuget package selector.
