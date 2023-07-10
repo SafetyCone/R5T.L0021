@@ -1,11 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>1573;1587;1591</NoWarn>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="System.Reflection.MetadataLoadContext" Version="5.0.1" />
   </ItemGroup>
-
 </Project>
